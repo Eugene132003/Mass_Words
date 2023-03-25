@@ -24,11 +24,7 @@
                 Console.Write(Myarray1+"\t");
 
         SortMass.Add(firstNames);
-        SortMass.Add(firstNames);
-        //Console.WriteLine("Первый массив");
         SortMass[0].ForEach(Console.WriteLine);
-        //Console.WriteLine("второй массив");
-        SortMass[1].ForEach(Console.WriteLine);
     }
     public static void ContrastMeNow(String firstString, string[] LowNamesC, List<string> firstNamesF)
     {
